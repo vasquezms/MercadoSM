@@ -13,8 +13,8 @@
 
         public override string ToString()
         {
-            return $"{Id} - {Description} " +
-                $"\n\tMeasurement:.........: {$"{Measurement}",18}" +
+            return $"   {Id} - {Description} " +
+                $"\n\tMeasurement:.........: {Measurement}" +
                 $"\n\tQuantity.............: {$"{Quantity:F2}",18}"+
                 $"\n\tPrice................: {$"{Price:C2}",18}" +
                 $"\n\tTax..................: {$"{Tax:P2}",18}" +

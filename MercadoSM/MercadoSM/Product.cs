@@ -15,7 +15,7 @@
          
         public override string ToString()
         {
-            return $"{Id} - {Description} "+
+            return $"   {Id} - {Description} "+
                 $"\n\tPrice................: {$"{Price:C2}",18}" +
                 $"\n\tTax..................: {$"{Tax:P2}",18}"+
                 $"\n\tValue................: {$"{ValueToPay():C2}",18}";

@@ -28,7 +28,7 @@
             {
                 product += prod.Description + ", ";
             }
-                return $"{Id} - {Description} " +
+                return $"   {Id} - {Description} " +
                 $"\n\tproducts.............: {$"{product}",18}" +
                 $"\n\tDiscount.............: {$"{Discount:P2}",18}" +
                 $"\n\tValue................: {$"{ValueToPay():C2}",18}";
